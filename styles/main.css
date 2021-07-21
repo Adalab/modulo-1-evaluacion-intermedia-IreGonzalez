@@ -12,30 +12,36 @@
   margin: 10px;
 }
 .navigation {
-  display: block;
-  box-sizing: border-box;
   margin-bottom: 13px;
 }
 .link {
-  align-content: space-between;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: var(--menucolor);
   text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #3cdbc0;
+  height: 100vh;
 }
 .slogan {
-  background-color: #3cdbc0;
   font-family: "Rubik", sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: var(--textcolor);
   text-transform: capitalize;
-  height: 100%;
 }
 
 /*tablet-desktop*/
 @media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    align-content: space-between;
+  }
 }
