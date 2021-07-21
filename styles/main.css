@@ -2,27 +2,38 @@
   --menucolor: #4a4a4a;
   --textcolor: #ffffff;
 }
-
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Rubik", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
 }
 .logo {
   width: 155px;
+  margin: 10px;
 }
 .navigation {
-  display: flex;
-  flex-direction: row;
+  display: block;
   box-sizing: border-box;
+  margin-bottom: 13px;
+}
+.link {
   align-content: space-between;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--menucolor);
+  text-transform: uppercase;
 }
 .footer {
+}
+.slogan {
+  background-color: #3cdbc0;
   font-family: "Rubik", sans-serif;
+  font-size: 30px;
   font-weight: 700;
+  color: var(--textcolor);
+  text-transform: capitalize;
+  height: 100%;
 }
 
 /*tablet-desktop*/
